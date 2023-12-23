@@ -1,0 +1,81 @@
+.home {
+  background-color: #ffd569;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  padding: 30px;
+  width: 50vw;
+  border-radius: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+}
+
+.images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-1 {
+  height: 150px;
+  width: 150px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.image-2 {
+  height: 150px;
+  width: 150px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: none;
+  cursor: pointer;
+}
+
+.btns-1 {
+  background-color: #007bff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 80px;
+  margin-top: 30px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.btns-2 {
+  background-color: #007bff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 80px;
+  margin-top: 30px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  outline: none;
+  cursor: pointer;
+}
+
+.count {
+  color: #ffd569;
+}
